@@ -7,16 +7,29 @@
 
 }
 
-.links,
-.hero-text p {
+.links {
     font-family: "Roboto",sans-serif;
     font-size: 18px;
     color:#E5E7EB;
     list-style: none;
     display:flex;
-    margin-right:48px;
+    margin-right:10%;
     gap:24px;
     padding-left: 0px;
+}
+
+.hero-text {
+    align-self: center;
+    padding-right:0;
+}
+
+.hero-text p {
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    color:#E5E7EB;
+    display:flex;
+    margin-right: 48px;
+    width:60%;
 }
 
 a {
@@ -30,10 +43,6 @@ a {
     align-items: center;
 }
 
-.hero {
-    border: solid white;
-}
-
 .hero,
 .header {
     background-color: #1F2937;
@@ -43,18 +52,44 @@ a {
     font-size: 48px;
     color:#F9FAF8;
     font-weight: 900;
+    width:50%;
+
 }
 
 .hero {
     display:flex;
+    justify-content: space-between;
+
+
+}
+.hero-image {
+    display:flex;
+    width:50%;
 
 }
 
-.hero-image {
+.hero-image p {
     background-color: gray;
     color:#E5E7EB;
     display:flex;
-    align-self:center;
-    padding:48px;
-    margin-right:48px;
+    align-self: center;
+    padding:80px 128px 80px 128px;
+    text-wrap:nowrap;
+    font-size: 18px;
+    margin-right:256px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    padding: 8px 16px 8px 16px;
+    font-size: 18px;
+    border-color: #3882F6;
+    font-weight: 700;
+}
+
+.hero-image,
+.hero-image p {
+    border: solid white;
 }
