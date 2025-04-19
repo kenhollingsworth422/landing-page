@@ -17,10 +17,15 @@
     padding-left: 0px;
 }
 
+.hero {
+    border:solid white;
+}
+
 .hero-text {
+    
+    width:400px;
     display:flex;
     flex-direction: column;
-    padding:16px 16px 16px 48px;
 }
 
 .hero-text p {
@@ -56,14 +61,12 @@ a {
 
 .hero {
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 48px;
     padding-top:48px;
 }
 .hero-image {
     display:flex;
-    width:50%;
-    flex-shrink:1;
 
 }
 
@@ -75,8 +78,6 @@ a {
     padding:90px 100px 90px 100px;
     text-wrap:nowrap;
     font-size: 18px;
-    margin-right:256px;
-    flex-shrink: 2;
 }
 
 .sign-up {
@@ -96,11 +97,6 @@ a {
     display:flex;
     flex-direction: column;
     padding: 48px;
-}
-
-.random {
-    border: solid black;
-
 }
 
 .random-head {
@@ -139,4 +135,84 @@ a {
     text-align: center;
     width:175px;
     text-wrap: wrap;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:48px;
+    gap:16px;
+}
+
+.quote-text {
+    color:#1F2937;
+    font-size:36px;
+    font-style: italic;
+    text-align: center;
+    width:750px;
+    margin: 0px auto 0px auto;
+    display:flex;
+    flex-shrink: 1;
+}
+
+.quote-from {
+    width:750px;
+    text-align: right;
+    margin:0 auto 0 auto;
+    font-weight: 900;
+    font-family:'Roboto',sans-serif;
+    font-size: 24px;
+
+}
+
+.action {
+    background-color:#F9FAF8;
+    padding: 48px 0px 48px 0px;
+
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 0 auto 0 auto;
+    width:750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 16px 0px 16px 0px;
+}
+
+.action-text {
+    color:#E5E7EB;
+}
+
+.action-text h3 {
+    font-family: 'Roboto',sans-serif;
+    font-size:18px;
+    font-weight: 900;
+    margin-bottom:-12px;
+}
+
+.action-text p {
+    font-size:16px;
+}
+
+.action-button {
+    border: solid #E5E7EB;
+    border-radius: 5px;
+    color:#E5E7EB;
+    padding: 4px 8px 4px 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    padding:8px 0px 8px 0px;
+    font-family: 'Roboto',sans-serif;
+
 }
